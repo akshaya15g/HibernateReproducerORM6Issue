@@ -28,7 +28,7 @@ Code:
     }
     
     
-  If the above code is changed to following (i.e. reverse the referenced columns which is logically incorrect), it works fine
+  # If the above code is changed to following (i.e. reverse the referenced columns which is logically incorrect), it works fine
   
   @OneToMany(fetch = EAGER,cascade=CascadeType.ALL)
     @JoinColumns({
